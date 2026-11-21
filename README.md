@@ -1,108 +1,145 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Atif%20Ullah%20Khan&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%20Engineer%20%E2%80%A2%20Co-Founder%20%26%20CTO%20%40%20IF%2FELSE%20Intelligence&descSize=16&descAlignY=58" width="100%"/>
+<h1>Atif Ullah Khan</h1>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=2C9FD6&center=true&vCenter=true&width=650&lines=Large+Language+Models+%26+RAG+Systems;Computer+Vision+%26+3D+Pose+Estimation;Speech+%26+Text-to-Speech;Multi-Agent+Automation" alt="Typing SVG" /></a>
+<p><b>AI Engineer &nbsp;·&nbsp; Full-Stack Developer &nbsp;·&nbsp; Applied ML Researcher</b></p>
+
+<a href="https://atif-portfolio-eta.vercel.app/"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=58A6FF&center=true&vCenter=true&width=640&lines=Agentic+AI+systems+and+RAG+pipelines;LLM+fine-tuning+and+evaluation;Computer+vision+and+3D+human+pose;Speech+and+text-to-speech" alt="Typing SVG" /></a>
 
 <p>
-  <a href="https://atif-portfolio-eta.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="https://atif-portfolio-eta.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/atifullahkhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="https://ifelseintelligence.com"><img src="https://img.shields.io/badge/IF%2FELSE%20Intelligence-2C5364?style=for-the-badge&logo=googlecloud&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=atifkhan23&style=for-the-badge&color=2C9FD6&label=Profile+Views"/>
+  <a href="https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22"><img src="https://img.shields.io/badge/Zenodo-Research-1682D4?style=for-the-badge&logo=zenodo&logoColor=white"/></a>
+  <a href="mailto:itxmeatif8@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=atifkhan23&style=flat-square&color=58A6FF&label=Profile+views"/>
 
 </div>
 
----
+<br/>
 
-## 👋 About Me
+## About
 
-I'm an **AI Engineer** from Islamabad, Pakistan, with a bachelor's in **Artificial Intelligence** from **PAF-IAST**. I build practical AI systems across **LLMs, computer vision and speech**, and I enjoy taking research ideas all the way to working products.
+I am an AI engineer based in Islamabad, Pakistan, with a bachelor's degree in **Artificial Intelligence** from **PAF-IAST**. I build AI systems end to end, from data and training to evaluation and deployment, and I care about testing models properly before trusting them.
 
-- 🚀 **Co-Founder & CTO** at [IF/ELSE Intelligence](https://ifelseintelligence.com), an AI solutions company
-- 🔬 Researching **LLM robustness**, **legal-domain NLP** and **occlusion-robust 3D pose reconstruction**
-- 💼 Freelance AI / Computer Vision Engineer on Upwork & Fiverr since 2024
-- 🎓 Looking for **funded graduate research** opportunities in AI
-- 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/atifullahkhan) or through my [portfolio](https://atif-portfolio-eta.vercel.app/)
+My work spans **large language models**, **computer vision** and **speech**:
 
----
+- Fine-tuning and evaluating LLMs (QLoRA, RAG, citation grounding, robustness testing)
+- Agentic AI systems and retrieval-augmented applications
+- Detection, tracking and 3D human pose reconstruction
+- Text-to-speech adaptation and speech pipelines
 
-## 🌟 Featured Projects
+I am currently seeking **funded graduate research opportunities** in AI.
+
+<br/>
+
+## Research
+
+| Work | Summary | Links |
+|---|---|---|
+| **CPC-PKL** — Fine-Tuning, Retrieval, and Citation Hallucination in Legal QA on Pakistan's Code of Civil Procedure | Preprint introducing a legal QA dataset on the CPC 1908 and comparing base vs. QLoRA fine-tuned Qwen2.5-7B, with and without hybrid RAG | [Zenodo](https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22) · [Code](https://github.com/atifkhan23/pakistan-cpc-legal-llm) |
+| **PoseGuard** — Occlusion-Aware Training for Robust 2D-to-3D Human Pose Lifting | Preprint on making 3D pose reconstruction robust to missing and occluded keypoints | [Zenodo](https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22) · [Code](https://github.com/atifkhan23/PoseGuard-Occlusion-Aware-Training-for-Robust-2D-to-3D-Human-Pose-Lift) |
+| **Efficiency vs. Trust on GSM8K** | Robustness evaluation of open-weight LLMs on math reasoning under controlled problem transformations | [Code](https://github.com/atifkhan23/efficiency-vs-trust-gsm8k) |
+
+<br/>
+
+## Selected Projects
 
 | Project | Description | Stack |
 |---|---|---|
-| 🏥 **Multimodal Surgical Video Analytics** | Flagship pipeline that detects, tracks and describes surgical instruments and events in video | LLaVA v1.5-7B · QLoRA · YOLOv8 · ByteTrack |
-| ⚖️ **CPC-PKL** *(preprint)* | Legal QA dataset on Pakistan's Code of Civil Procedure 1908, plus LLM fine-tuning on it | Transformers · PEFT · LLMs |
-| 🧍 **PoseGuard** *(preprint)* | Occlusion-robust 3D human pose reconstruction from 2D keypoints | PyTorch · Kaggle |
-| 🧮 **Beyond Accuracy: GSM8K Robustness** | Evaluates open-weight LLMs on math reasoning under controlled problem transformations | LLM evaluation · Python |
-| 🤖 **Private AI Desktop Agent** | Multi-agent system for sales & marketing: lead research, outreach, objection handling, call review, copywriting | LLM agents · Python |
-| 📚 **AI Legal Case Management System** | Final-year project with industry partner Insafdaar Law Firm; RAG chatbot over case data — [live demo](https://129.154.41.160/) | RAG · Gemini API · Knowledge Graph |
-| 🎱 **Snooker Analytics** | Ball detection, tracking and gameplay analytics | YOLOX · ByteTrack · OpenCV |
-| 🗣️ **Speech / TTS** | Fine-tuning and adapting text-to-speech models | Chatterbox · Meta MMS-TTS |
+| **Multimodal Surgical Video Analytics** | Detects, tracks and describes surgical instruments and events in video | LLaVA v1.5-7B · QLoRA · YOLOv8 · ByteTrack |
+| **AI Legal Case Management System** | Final-year project with Insafdaar Law Firm; RAG chatbot over legal case data — [live demo](https://129.154.41.160/) | RAG · Gemini API · Knowledge Graph |
+| **Private AI Desktop Agent** | Multi-agent system for sales and marketing: lead research, outreach, objection handling, call review, copywriting | LLM Agents · Python |
+| **[Meeting Memory Agent](https://github.com/atifkhan23/ami-meeting-memory-agent)** | Agent that turns meeting transcripts into searchable, structured memory | Python · LLMs |
+| **[Weather-Aware Truck Routing](https://github.com/atifkhan23/Weather-Aware-Truck-Routing)** | Route planning that accounts for weather conditions | TypeScript |
+| **[Truck Freight Rate Model](https://github.com/atifkhan23/truck-freight-rate-model)** | Machine-learning model for freight rate estimation | Python · scikit-learn |
+| **Snooker Analytics** | Ball detection, tracking and gameplay analytics | YOLOX · ByteTrack · OpenCV |
+| **Speech / TTS** | Fine-tuning and adapting text-to-speech models | Chatterbox · Meta MMS-TTS |
 
----
+<br/>
 
-## 🛠️ Tech Stack
+## Technical Skills
 
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,js,ts,html,css,bash,md&theme=dark" />
+</p>
 
-**AI / ML**
+**Machine Learning & AI**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logo=yolo&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Google Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda&theme=dark" />
+</p>
 
-**Tools & Cloud**
+<p>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Transformers-FF9D00?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LlamaIndex-6E44FF?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/YOLO-111F68?style=for-the-badge&logo=yolo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gradio-F97316?style=for-the-badge&logo=gradio&logoColor=white"/>
+</p>
 
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+**Web & Backend**
 
----
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,flask,django,tailwind&theme=dark" />
+</p>
 
-## 💼 Experience
+**Databases**
 
-- **Co-Founder & CTO** — IF/ELSE Intelligence · *Jun 2026 – Present*
-- **Freelance AI / Computer Vision Engineer** — Upwork & Fiverr · *2024 – Present*
-- **AI Systems Engineer** — Insafdaar Law Firm · *2025*
-- **Intern, Data Center Department** — NTC HQ Islamabad · *Jun – Jul 2025*
-- **Research Intern** — Sino-Pak Center for AI · *Sep – Oct 2023* (3D pose estimation with Azure Kinect DK)
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,redis&theme=dark" />
+</p>
 
----
+**Cloud, DevOps & Tools**
 
-## 📊 GitHub Stats
+<p>
+  <img src="https://skillicons.dev/icons?i=gcp,azure,docker,linux,git,github,githubactions,vercel,vscode,postman&theme=dark" />
+</p>
+
+<br/>
+
+## Experience
+
+| Role | Organization | Period |
+|---|---|---|
+| Freelance AI / Computer Vision Engineer | Upwork & Fiverr | 2024 – Present |
+| AI Systems Engineer | Insafdaar Law Firm | 2025 |
+| Intern, Data Center Department | NTC Headquarters, Islamabad | Jun – Jul 2025 |
+| Research Intern (3D pose estimation, Azure Kinect DK) | Sino-Pak Center for Artificial Intelligence | Sep – Oct 2023 |
+
+<br/>
+
+## GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=atifkhan23&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atifkhan23&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=atifkhan23&show_icons=true&theme=github_dark&hide_border=true&count_private=true&bg_color=0D1117"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=atifkhan23&layout=compact&theme=github_dark&hide_border=true&langs_count=6&bg_color=0D1117"/>
 
-<img src="https://streak-stats.demolab.com?user=atifkhan23&theme=tokyonight&hide_border=true" width="60%"/>
+<br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=atifkhan23&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+<img src="https://streak-stats.demolab.com?user=atifkhan23&theme=github-dark-blue&hide_border=true&background=0D1117" width="62%"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=atifkhan23&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="100%"/>
 
 </div>
 
----
+<br/>
 
 <div align="center">
-
-### 💡 *"Turning research into real-world AI."*
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=110&section=footer" width="100%"/>
-
+  <sub>Open to research collaborations and graduate opportunities — reach out on <a href="https://www.linkedin.com/in/atifullahkhan">LinkedIn</a> or by <a href="mailto:itxmeatif8@gmail.com">email</a>.</sub>
 </div>
