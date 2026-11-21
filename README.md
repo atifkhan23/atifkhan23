@@ -10,6 +10,8 @@
   <a href="https://atif-portfolio-eta.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white"/></a>
   <a href="https://www.linkedin.com/in/atifullahkhan"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22"><img src="https://img.shields.io/badge/Zenodo-Research-1682D4?style=for-the-badge&logo=zenodo&logoColor=white"/></a>
+  <a href="https://huggingface.co/itxmekan908067xcv"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/></a>
+  <a href="https://www.kaggle.com/atifkhan89"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/></a>
   <a href="mailto:itxmeatif8@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 </p>
 
@@ -36,26 +38,174 @@ I am currently seeking **funded graduate research opportunities** in AI.
 
 ## Research
 
-| Work | Summary | Links |
-|---|---|---|
-| **CPC-PKL** — Fine-Tuning, Retrieval, and Citation Hallucination in Legal QA on Pakistan's Code of Civil Procedure | Preprint introducing a legal QA dataset on the CPC 1908 and comparing base vs. QLoRA fine-tuned Qwen2.5-7B, with and without hybrid RAG | [Zenodo](https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22) · [Code](https://github.com/atifkhan23/pakistan-cpc-legal-llm) |
-| **PoseGuard** — Occlusion-Aware Training for Robust 2D-to-3D Human Pose Lifting | Preprint on making 3D pose reconstruction robust to missing and occluded keypoints | [Zenodo](https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22) · [Code](https://github.com/atifkhan23/PoseGuard-Occlusion-Aware-Training-for-Robust-2D-to-3D-Human-Pose-Lift) |
-| **Efficiency vs. Trust on GSM8K** | Robustness evaluation of open-weight LLMs on math reasoning under controlled problem transformations | [Code](https://github.com/atifkhan23/efficiency-vs-trust-gsm8k) |
+<p align="center"><i>Preprints and evaluation studies on making AI models more reliable.</i></p>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/PREPRINT-LLM%20%C2%B7%20Legal%20NLP-1682D4?style=flat-square&labelColor=0D1117"/>
+
+<h3>CPC-PKL</h3>
+
+<p>Fine-tuning, retrieval and citation hallucination in legal question answering on Pakistan's Code of Civil Procedure 1908. A new dataset of 2,467 long-form QA pairs, comparing base and QLoRA fine-tuned Qwen2.5-7B with and without hybrid RAG.<br/><sub><b>Key result</b> — fine-tuning lifted ROUGE-L from 0.234 to 0.266 but learned to cite cases it could not ground; retrieval restored grounding.</sub></p>
+
+<p><code>Qwen2.5-7B</code> <code>QLoRA</code> <code>Hybrid RAG</code> <code>Citation analysis</code></p>
+
+<p><a href="https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22"><img src="https://img.shields.io/badge/Paper-1682D4?style=for-the-badge&logo=zenodo&logoColor=white"/></a> <a href="https://github.com/atifkhan23/pakistan-cpc-legal-llm"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/PREPRINT-Computer%20Vision%20%C2%B7%203D%20Pose-7C3AED?style=flat-square&labelColor=0D1117"/>
+
+<h3>PoseGuard</h3>
+
+<p>Occlusion-aware training for robust 2D-to-3D human pose lifting. Teaches pose-lifting models to stay accurate when keypoints are missing or hidden, as they often are in real-world video.</p>
+
+<p><code>PyTorch</code> <code>2D→3D lifting</code> <code>Occlusion robustness</code> <code>Kaggle</code></p>
+
+<p><a href="https://zenodo.org/search?q=%22Atif%20Ullah%20Khan%22"><img src="https://img.shields.io/badge/Paper-1682D4?style=for-the-badge&logo=zenodo&logoColor=white"/></a> <a href="https://github.com/atifkhan23/PoseGuard-Occlusion-Aware-Training-for-Robust-2D-to-3D-Human-Pose-Lift"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" width="100%" valign="top">
+
+<img src="https://img.shields.io/badge/STUDY-LLM%20Evaluation-0E9F6E?style=flat-square&labelColor=0D1117"/>
+
+<h3>Efficiency vs. Trust on GSM8K</h3>
+
+<p>How robust are open-weight LLMs at math reasoning? A controlled evaluation that rewrites GSM8K problems with systematic transformations and measures where accuracy breaks down, and whether smaller, faster models can still be trusted.</p>
+
+<p><code>Open-weight LLMs</code> <code>GSM8K</code> <code>Robustness testing</code> <code>Python</code></p>
+
+<p><a href="https://github.com/atifkhan23/efficiency-vs-trust-gsm8k"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+</tr>
+</table>
 
 <br/>
 
 ## Selected Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| **Multimodal Surgical Video Analytics** | Detects, tracks and describes surgical instruments and events in video | LLaVA v1.5-7B · QLoRA · YOLOv8 · ByteTrack |
-| **AI Legal Case Management System** | Final-year project with Insafdaar Law Firm; RAG chatbot over legal case data — [live demo](https://129.154.41.160/) | RAG · Gemini API · Knowledge Graph |
-| **Private AI Desktop Agent** | Multi-agent system for sales and marketing: lead research, outreach, objection handling, call review, copywriting | LLM Agents · Python |
-| **[Meeting Memory Agent](https://github.com/atifkhan23/ami-meeting-memory-agent)** | Agent that turns meeting transcripts into searchable, structured memory | Python · LLMs |
-| **[Weather-Aware Truck Routing](https://github.com/atifkhan23/Weather-Aware-Truck-Routing)** | Route planning that accounts for weather conditions | TypeScript |
-| **[Truck Freight Rate Model](https://github.com/atifkhan23/truck-freight-rate-model)** | Machine-learning model for freight rate estimation | Python · scikit-learn |
-| **Snooker Analytics** | Ball detection, tracking and gameplay analytics | YOLOX · ByteTrack · OpenCV |
-| **Speech / TTS** | Fine-tuning and adapting text-to-speech models | Chatterbox · Meta MMS-TTS |
+<table>
+<tr>
+<td colspan="2" valign="top">
+
+<img src="https://img.shields.io/badge/FLAGSHIP-Multimodal%20AI-D97706?style=flat-square&labelColor=0D1117"/>
+
+<h3>Multimodal Surgical Video Analytics</h3>
+
+<p>An end-to-end pipeline that detects and tracks surgical instruments frame by frame, then uses a fine-tuned vision-language model to describe what is happening in the procedure, turning raw surgical video into searchable, structured insight.</p>
+
+<p><code>LLaVA v1.5-7B</code> <code>QLoRA</code> <code>YOLOv8</code> <code>ByteTrack</code> <code>PyTorch</code></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/LEGAL%20AI-RAG-1682D4?style=flat-square&labelColor=0D1117"/>
+
+<h3>AI Legal Case Management System</h3>
+
+<p>Final-year project built with industry partner Insafdaar Law Firm: a RAG-based assistant that answers questions over legal case records using a knowledge graph.</p>
+
+<p><code>Gemini API</code> <code>RAG</code> <code>Knowledge Graph</code></p>
+
+<p><a href="https://129.154.41.160/"><img src="https://img.shields.io/badge/Live%20Demo-0E9F6E?style=for-the-badge&logo=googlechrome&logoColor=white"/></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/AGENTIC%20AI-Multi--Agent-7C3AED?style=flat-square&labelColor=0D1117"/>
+
+<h3>Private AI Desktop Agent</h3>
+
+<p>A private multi-agent system for sales and marketing: lead research, outreach, objection handling, call review, copywriting and funnel optimization.</p>
+
+<p><code>LLM Agents</code> <code>Python</code> <code>Tool use</code></p>
+
+<p></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/AGENTIC%20AI-Memory-7C3AED?style=flat-square&labelColor=0D1117"/>
+
+<h3>Meeting Memory Agent</h3>
+
+<p>An agent that turns meeting transcripts into structured, searchable memory so decisions and action items are never lost.</p>
+
+<p><code>Python</code> <code>LLMs</code> <code>Retrieval</code></p>
+
+<p><a href="https://github.com/atifkhan23/ami-meeting-memory-agent"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/COMPUTER%20VISION-Sports-D97706?style=flat-square&labelColor=0D1117"/>
+
+<h3>Snooker Analytics</h3>
+
+<p>Real-time ball detection and tracking with gameplay analytics built on top of the tracked trajectories.</p>
+
+<p><code>YOLOX</code> <code>ByteTrack</code> <code>OpenCV</code></p>
+
+<p></p>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/LOGISTICS-Routing-0E9F6E?style=flat-square&labelColor=0D1117"/>
+
+<h3>Weather-Aware Truck Routing</h3>
+
+<p>Route planning for trucks that takes live weather conditions into account.</p>
+
+<p><code>TypeScript</code></p>
+
+<p><a href="https://github.com/atifkhan23/Weather-Aware-Truck-Routing"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/LOGISTICS-ML%20Model-0E9F6E?style=flat-square&labelColor=0D1117"/>
+
+<h3>Truck Freight Rate Model</h3>
+
+<p>A machine-learning model for estimating truck freight rates.</p>
+
+<p><code>Python</code> <code>scikit-learn</code></p>
+
+<p><a href="https://github.com/atifkhan23/truck-freight-rate-model"><img src="https://img.shields.io/badge/Code-24292F?style=for-the-badge&logo=github&logoColor=white"/></a></p>
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<img src="https://img.shields.io/badge/SPEECH-Text--to--Speech-DB2777?style=flat-square&labelColor=0D1117"/>
+
+<h3>Speech &amp; TTS</h3>
+
+<p>Fine-tuning and adapting text-to-speech models for new voices and languages.</p>
+
+<p><code>Chatterbox</code> <code>Meta MMS-TTS</code> <code>PyTorch</code></p>
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <a href="https://github.com/atifkhan23?tab=repositories"><img src="https://img.shields.io/badge/See%20all%2042%20repositories-0D1117?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
 
 <br/>
 
